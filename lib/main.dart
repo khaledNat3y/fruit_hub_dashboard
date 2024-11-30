@@ -16,6 +16,7 @@ class MainApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       onGenerateRoute: appRouter.generateRoute,
       initialRoute: Routes.dashBoard,
+
     );
   }
 }
