@@ -27,6 +27,7 @@ class MainApp extends StatelessWidget {
         onGenerateRoute: appRouter.generateRoute,
         initialRoute: Routes.dashBoard,
       ),
+
     );
   }
 }
